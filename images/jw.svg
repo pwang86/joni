@@ -1,0 +1,14 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path id="svg_2" d="m40,0c22.091,0 40,17.909 40,40s-17.909,40 -40,40s-40,-17.909 -40,-40s17.909,-40 40,-40z" fill="#FFFFFF"/>
+  </g>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="30" id="svg_6" y="50.5" x="18.757813" stroke-width="0" stroke="#000" fill="#8cc9f0">JW</text>
+ </g>
+</svg>
