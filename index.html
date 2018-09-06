@@ -138,9 +138,27 @@
 						<section>
 							<h2>Questions</h2>
 							<form id="commentForm">
-								<p class="questions"><input type="text" placeholder="Name" name="cname" id="cname"></p>
-								<p class="questions"><input type="text" placeholder="Email" name="cemail" id="cemail"></p>
-								<p class="questions"><input type="text" placeholder="Message" name="cmessage" id="cmessage"></p>
+									<div class="questions">
+											<input type="text" placeholder="Name" name="cname" id="cname">
+										</div>
+										<div class="questions">
+											<input type="email" placeholder="Email" name="cemail" id="cemail">
+										</div>
+										<div class="questions">
+											<input type="text" placeholder="Message" name="cmessage" id="cmessage">
+										</div>
+								<!-- <div class="questions form-group">
+									<input type="text" placeholder="Name" name="cname" id="cname">
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="questions form-group">
+									<input type="email" placeholder="Email" name="cemail" id="cemail" data-error="Valid email is required." required>
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="questions form-group">
+									<input type="text" placeholder="Message" name="cmessage" id="cmessage">
+									<div class="help-block with-errors"></div>
+								</div> -->
 								<button id="cbutton" type="submit">Send</button>
 						    </form>
 						</section>
@@ -175,6 +193,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- <script src="assets/js/validator.js"></script>
+			<script>
+				$('#commentForm').validator();
+			</script> -->
 			<script src="assets/js/jquery-validation-1/dist/jquery.validate.js"></script>
 			<script>
 				$("#commentForm").validate({
