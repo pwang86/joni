@@ -3765,9 +3765,27 @@ input, select, textarea {
 		}
 	/* Customized */
    .questions {
-		margin-bottom: 1em;
+		margin-bottom: 1em; 
 		width: 90%;
+   }
+   #cname {
+	   position: relative;
+   }
+   #cemail {
+		position: relative;
+   }
+   #cmessage {
+		position: relative;
    }
    #cbutton {
 	   font-size: 0.75em;
    }
+   input.error {
+		border: 2px solid cyan;
+	}
+   label.error {
+		position: absolute;
+		font-size: 0.85em;
+		font-weight: 200;
+	}
+
